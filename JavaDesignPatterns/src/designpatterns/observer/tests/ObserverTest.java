@@ -1,8 +1,5 @@
 package designpatterns.observer.tests;
 
-import static org.junit.Assert.*;
-import junit.framework.Assert;
-
 import org.junit.Test;
 
 import designpatterns.observer.model.Shop;
@@ -16,7 +13,6 @@ public class ObserverTest {
 		Shop shop =  new Shop();
 		source.addListener(shop);
 		source.notifyAllListeners();
-		//Assert.assertEquals();
 	}
 
 }
