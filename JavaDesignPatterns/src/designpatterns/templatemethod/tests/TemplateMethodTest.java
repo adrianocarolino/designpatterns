@@ -11,8 +11,8 @@ public class TemplateMethodTest {
 	public void testGame() {
 		Chess chess = new Chess();
 		chess.playOneGame(2);
-		//Monopoly monoploy = new Monopoly();
-		//monoploy.playOneGame(4);
+		Monopoly monoploy = new Monopoly();
+		monoploy.playOneGame(4);
 	}
 
 }
