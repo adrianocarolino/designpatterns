@@ -1,6 +1,11 @@
-package designpatterns.composite;
+package designpatterns.composite.tests;
 
 import org.junit.Test;
+
+import designpatterns.composite.A;
+import designpatterns.composite.BODY;
+import designpatterns.composite.HEAD;
+import designpatterns.composite.HTML;
 
 public class CompositeTest {
 
