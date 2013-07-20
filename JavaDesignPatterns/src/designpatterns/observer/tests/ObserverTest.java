@@ -9,8 +9,10 @@ public class ObserverTest {
 
 	@Test
 	public void testMyObserver() {
-		Source source = new Source();
-		Shop shop =  new Shop();
+		//source generates the event
+		Source source = new Source();		
+		//listener
+		Shop shop =  new Shop();		
 		source.addListener(shop);
 		source.notifyAllListeners();
 	}
