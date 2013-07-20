@@ -1,5 +1,6 @@
 package designpatterns.command;
 
+/* The Receiver class */
 public class Light {
 	public Light() {
 	}
