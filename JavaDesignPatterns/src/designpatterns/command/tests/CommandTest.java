@@ -1,7 +1,13 @@
-package designpatterns.command;
+package designpatterns.command.tests;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import designpatterns.command.Command;
+import designpatterns.command.commands.FlipDownCommand;
+import designpatterns.command.commands.FlipUpCommand;
+import designpatterns.command.invoker.Switch;
+import designpatterns.command.receiver.Light;
 
 public class CommandTest {
 

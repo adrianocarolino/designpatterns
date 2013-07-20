@@ -1,9 +1,12 @@
-package designpatterns.observer.model;
+package designpatterns.observer.tests;
 
 import static org.junit.Assert.*;
 import junit.framework.Assert;
 
 import org.junit.Test;
+
+import designpatterns.observer.model.Shop;
+import designpatterns.observer.model.Source;
 
 public class ObserverTest {
 

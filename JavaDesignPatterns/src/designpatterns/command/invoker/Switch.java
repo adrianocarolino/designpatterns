@@ -1,7 +1,9 @@
-package designpatterns.command;
+package designpatterns.command.invoker;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import designpatterns.command.Command;
 
 /* The Invoker class */
 public class Switch {

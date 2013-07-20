@@ -1,4 +1,7 @@
-package designpatterns.command;
+package designpatterns.command.commands;
+
+import designpatterns.command.Command;
+import designpatterns.command.receiver.Light;
 
 public class FlipDownCommand implements Command {
 

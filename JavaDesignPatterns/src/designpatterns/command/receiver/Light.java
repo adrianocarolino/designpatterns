@@ -1,4 +1,4 @@
-package designpatterns.command;
+package designpatterns.command.receiver;
 
 /* The Receiver class */
 public class Light {
